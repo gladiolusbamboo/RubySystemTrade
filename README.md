@@ -1,1 +1,2 @@
 # RubySystemTrade
+Rubyではじめるシステムトレード学習用
