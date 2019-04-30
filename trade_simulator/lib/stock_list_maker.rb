@@ -7,7 +7,7 @@ class StockListMaker
 
     def save_stock_list
         File.open(@data_dir+"/"+@file_name, "w") do |file_w|
-            File.open(@data_dir+"/stocks_view.csv", "rt:UTF-8") do |file_r|
+            File.open(@data_dir+"/origin/stocks_view.csv", "rt:UTF-8") do |file_r|
                 file_r.each_line do |f|
                     line = parse(f)
                     if(!line.nil?)
