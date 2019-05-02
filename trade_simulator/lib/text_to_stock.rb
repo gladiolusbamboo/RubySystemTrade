@@ -1,6 +1,7 @@
 # coding: Windows-31J
 
 require "./lib/stock_list_loader"
+require "./lib/stock"
 require "Date"
 
 class TextToStock
